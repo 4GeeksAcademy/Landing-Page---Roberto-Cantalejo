@@ -6,11 +6,9 @@ import ReactDOM from "react-dom/client";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
-
-//import your own components
 import Navbar from "./component/navbar.jsx";
+import Jumbotron from "./component/jumbotron.jsx";
 
 //render your react application
-ReactDOM.createRoot(document.getElementById('app')).render(<Navbar/>);
-
+ReactDOM.createRoot(document.getElementById('navbar')).render(<Navbar/>);
+ReactDOM.createRoot(document.getElementById('jumbotron')).render(<Jumbotron/>);
